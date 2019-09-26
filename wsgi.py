@@ -7,8 +7,9 @@ def hello():
 #    return "Hello World from Trey!"
 
 def getinfo():
-  print("<!doctype html>")
-  print("<title>Hello from Flask</title>")
+  web_con = "<title>Hello from Flask</title>\n"
+  web_con += "Hello World from function!\n"
+  return web_con
 
 if __name__ == "__main__":
     application.run()
