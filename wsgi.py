@@ -8,9 +8,8 @@ def hello():
 
 def getinfo():
   web_con = "<h1>This is a header</h1>\n"
+  web_con += "Hello World from function!\n"
 
-#  web_con = "<h1>Hello from Flask</h1>\n"
-#  web_con += "Hello World from function!\n"
   return web_con
 
 if __name__ == "__main__":
