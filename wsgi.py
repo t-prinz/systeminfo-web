@@ -11,8 +11,11 @@ def hello():
 ########################################
 
 def getinfo(local_con):
-  local_con = "<h1>This is a header</h1>\n"
-  local_con += "Hello World from function!\n"
+#  local_con = "<h1>This is a header</h1>\n"
+#  local_con += "Hello World from function!\n"
+
+  local_con = """<h1>This is a header</h1>\n
+Hello World from function!\n"""
 
   return local_con
 
