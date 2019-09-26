@@ -9,6 +9,8 @@ def hello():
 
   web_con += pre_write()
 
+  web_con += "hi there\n"
+
   web_con += post_write()
 
   return web_con
