@@ -9,12 +9,11 @@ def hello():
 
   web_con += pre_write()
 
-  web_con += "hi there\n"
+  web_con += get_info()
 
   web_con += post_write()
 
   return web_con
-#  return getinfo(web_con)
 
 ########################################
 
@@ -66,14 +65,42 @@ def post_write():
 
 ########################################
 
-def getinfo(local_con):
-#  local_con = "<h1>This is a header</h1>\n"
-#  local_con += "Hello World from function!\n"
+def get_info():
+  local_str = ""
 
-  local_con = """<h1>This is a header</h1>
-Hello World from function!\n"""
+  # Start a new table to show the basic system information
 
-  return local_con
+  local_str += """
+  <h2>System Information</h2>
+
+  <table>
+    <tr>
+      <th>Parameter</th>
+      <th>Value</th>
+    </tr>\n"""
+
+#  # Populate the table
+
+#  print("  <tr>\n")
+#  print("    <td>Hostname</td>\n")
+#  print("    <td>{}</td>\n".format( platform.node() ))
+#  print("  </tr>\n")
+
+#  print("  <tr>\n")
+#  print("    <td>System</td>\n")
+#  print("    <td>{}</td>\n".format( platform.system() ))
+#  print("  </tr>\n")
+
+#  print("  <tr>\n")
+#  print("    <td>Release</td>\n")
+#  print("    <td>{}</td>\n".format( platform.release() ))
+#  print("  </tr>\n")
+
+  # Finish the table
+
+  local_str += "  </table>\n"
+
+  return local_str
 
 ########################################
 
