@@ -27,9 +27,9 @@ def pre_write():
 
   <style>
 
-  body {
-      background-color: powderblue;
-  }
+#  body {
+#      background-color: powderblue;
+#  }
 
   table {
       font-family: arial, sans-serif;
@@ -73,7 +73,7 @@ def get_info():
   # Start a new table to show the basic system information
 
   local_str += """
-  <h2>System Information</h2>
+  <h2>Node Information</h2>
 
   <table>
     <tr>
