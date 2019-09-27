@@ -81,22 +81,22 @@ def get_info():
       <th>Value</th>
     </tr>\n"""
 
-#  # Populate the table
+  # Populate the table
 
-#  print("  <tr>\n")
-#  print("    <td>Hostname</td>\n")
-#  print("    <td>{}</td>\n".format( platform.node() ))
-#  print("  </tr>\n")
+  local_str += "  <tr>\n"
+  local_str += "    <td>Hostname</td>\n"
+  local_str += "    <td>{}</td>\n".format( platform.node() )
+  local_str += "  </tr>\n"
 
-#  print("  <tr>\n")
-#  print("    <td>System</td>\n")
-#  print("    <td>{}</td>\n".format( platform.system() ))
-#  print("  </tr>\n")
+#  local_str += "  <tr>\n"
+#  local_str += "    <td>System</td>\n"
+#  local_str += "    <td>{}</td>\n".format( platform.system() )
+#  local_str += "  </tr>\n"
 
-#  print("  <tr>\n")
-#  print("    <td>Release</td>\n")
-#  print("    <td>{}</td>\n".format( platform.release() ))
-#  print("  </tr>\n")
+#  local_str += "  <tr>\n"
+#  local_str += "    <td>Release</td>\n"
+#  local_str += "    <td>{}</td>\n".format( platform.release() )
+#  local_str += "  </tr>\n"
 
   # Finish the table
 
