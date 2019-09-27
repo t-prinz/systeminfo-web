@@ -88,15 +88,15 @@ def get_info():
   local_str += "    <td>{}</td>\n".format( platform.node() )
   local_str += "  </tr>\n"
 
-#  local_str += "  <tr>\n"
-#  local_str += "    <td>System</td>\n"
-#  local_str += "    <td>{}</td>\n".format( platform.system() )
-#  local_str += "  </tr>\n"
+  local_str += "  <tr>\n"
+  local_str += "    <td>System</td>\n"
+  local_str += "    <td>{}</td>\n".format( platform.system() )
+  local_str += "  </tr>\n"
 
-#  local_str += "  <tr>\n"
-#  local_str += "    <td>Release</td>\n"
-#  local_str += "    <td>{}</td>\n".format( platform.release() )
-#  local_str += "  </tr>\n"
+  local_str += "  <tr>\n"
+  local_str += "    <td>Release</td>\n"
+  local_str += "    <td>{}</td>\n".format( platform.release() )
+  local_str += "  </tr>\n"
 
   # Finish the table
 
