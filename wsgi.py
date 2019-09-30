@@ -27,9 +27,9 @@ def pre_write():
 
   <style>
 
-  body {
-      background-color: powderblue;
-  }
+#  body {
+#      background-color: powderblue;
+#  }
 
   table {
       font-family: arial, sans-serif;
