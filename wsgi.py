@@ -1,6 +1,9 @@
 import platform
 
 from flask import Flask
+
+FLASK_PORT = 5000
+
 application = Flask(__name__)
 
 ########################################
@@ -107,4 +110,4 @@ def get_info():
 ########################################
 
 if __name__ == "__main__":
-    application.run()
+    application.run('0.0.0.0',FLASK_PORT)
