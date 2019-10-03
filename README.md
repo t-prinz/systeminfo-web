@@ -30,6 +30,11 @@ sudo docker run -d --rm -p 5000:5000 --name systeminfo-web tprinz/systeminfo-web
 
 curl http://localhost:5000
 
+# Push the image to Quay
+
+sudo docker tag tprinz/systeminfo-web quay.io/tprinz/systeminfo-web
+sudo docker push quay.io/tprinz/systeminfo-web
+
 #
 # Use the following to make use of the S2I utility
 #
